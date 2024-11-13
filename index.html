@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Programação Web</title>
+    <link rel="stylesheet" href="style.css"> <!-- Ligando o CSS -->
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz: Programação Web</h1>
+        <div class="quiz-content">
+            <div id="question-container">
+                <!-- Pergunta e opções serão geradas via JavaScript -->
+            </div>
+            <button class="btn" id="next-btn">Próxima Pergunta</button>
+        </div>
+        <div class="result" id="result-container">
+            <p id="score">Você acertou X de 10 questões!</p>
+            <button class="btn" onclick="restartQuiz()">Reiniciar Quiz</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Ligando o JavaScript -->
+</body>
+</html>
